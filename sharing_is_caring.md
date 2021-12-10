@@ -1,3 +1,16 @@
+## Why Rust?
+
+- C-like performance, guarantee free of race conditions and memory errors.
+- 
+
+## High Level Comparrison
+
+Feature | C# | Rust
+Verifiably safe | x | x
+Performant for most business-use case | x | x
+mix of functional and OO | x | x
+Many quality of life improvements | x | x
+
 ## Class-like Data Types
 Lang Version|      0.4    |    1.0   | 1.0          | 9                        | 10
    ---      | :-:         |    :-:   |   :-:        |  :-:                     | :-:
@@ -39,6 +52,24 @@ Other notes:
 Control Features
 - Rust makes you opt-in to mutable variables
 - shadowing
+
+## Cool Features
+
+Feature | Rust | C#
+--- | :-: | :-:
+suscinct range syntax i.e. (for i in 0..15) | x | _
+LINQ expressions | _ | x
+immutable object properties | _ | x 
+attributes | _ | x
+conditional compilation | | 
+match statements | x | x
+optional 'return' | | 
+if, while expressions | | 
+result, option types | x | 
+tuples | x | x
+
+
+
 
 Feature
 cargo and rustup vs nuget and dotnet cli
